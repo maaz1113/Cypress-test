@@ -9,7 +9,7 @@ describe('Interview Test', function () {
        cy.wait(5000)
 
        // Login to the site
-       PageObject.Login("1maaz.faisal@gmail.com", "damonsalvatore*17")
+       PageObject.Login("", "")
 
        // Verify Page title
        PageObject.VerifyAndSelectSite('Sites')
